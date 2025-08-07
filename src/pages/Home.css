@@ -1,0 +1,101 @@
+.hero-overlay {
+  
+  background-color: rgba(0, 0, 0, 0.07) !important;
+}
+.home{font-weight: bold;}
+
+
+body { margin: 0; font-family: sans-serif; }
+.hero { position: relative; min-height: 90vh; display: flex; align-items: center; justify-content: flex-start; padding: 2rem 5rem; background-size: cover; background-position: center; }
+.hero-content-container { position: relative; }
+.hero-content { max-width: 600px; text-align: left; }
+.main-heading { font-size: 3.25rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
+.heading-span { color: #2563eb; display: block; }
+.main-paragraph { font-size: 1.1rem; margin-bottom: 2rem; line-height: 1.6; max-width: 500px; }
+.track-box { background-color: white; padding: 1.25rem; border-radius: 1rem; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07); margin-bottom: 2.5rem; max-width: 450px; }
+.track-box-heading { font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; }
+.track-form { display: flex; gap: 0.5rem; }
+.track-input { flex: 1; padding: 0.75rem 1rem; border: 1px solid #e2e8f0; border-radius: 0.6rem; font-size: 0.95rem; }
+.track-button { background-color: #2563eb; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.6rem; cursor: pointer; }
+.stats { display: flex; justify-content: flex-start; gap: 2.5rem; text-align: left; }
+
+
+.stat-number { 
+  font-size: 2rem; 
+  font-weight: 700; 
+  color: #2563eb; 
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); 
+}
+.stat-label { 
+  font-size: 0.9rem; 
+  margin-top: 0.25rem; 
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); 
+  color: #333; 
+}
+
+
+.services {
+  display: flex;            
+  justify-content: center;  
+  gap: 2rem;                
+  flex-wrap: wrap;          
+}
+
+.service-box {
+  display: flex;            
+  flex-direction: column;   
+  
+  width: 100%;
+  max-width: 400px;         
+  padding: 2rem;            
+  border: 1px solid #e2e8f0; 
+  border-radius: 1rem;      
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07); 
+}
+
+.service-box p {
+  flex-grow: 1;             
+  margin-bottom: 1.5rem;    
+}
+
+
+.service-box button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.services-section h2,
+.quote-section h2 {
+  border-bottom: none;
+}
+
+.services-section,
+.quote-section {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.service-button {
+  display: inline-block;
+  background-color: #007bff; 
+  color: #ffffff;             
+  padding: 12px 24px;          
+  border-radius: 8px;          
+  text-decoration: none;      
+  font-weight: 500;
+  text-align: center;
+  border: none;                
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  margin-top: 1rem;            
+}
+
+.service-button:hover {
+  background-color: #0056b3; 
+  transform: translateY(-2px);   
+}
